@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background: #272044;
+  background: #3f0606;
 }
 
 .container {
@@ -39,17 +39,19 @@ body {
   aspect-ratio: 1 /1;
 }
 
-.instagram-embeds {
-  margin: 30px 0;
-}
-
 .card {
   background: white;
   margin: 30px 0;
 }
 
-.card-header.grid {
-  grid-gap: 0;
+.card-header {
+  padding: 30px;
+  background-color: #272044;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  justify-content: space-between;
 }
 
 .card-body {
@@ -70,7 +72,7 @@ body {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #462cb3;
+  background-color: #5e0404;
   text-decoration: none;
 }
 
@@ -85,8 +87,8 @@ section.secondary {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/background.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -181,11 +183,8 @@ main p {
 
 footer {
   color: white;
-  background-image: linear-gradient(
-      rgba(39, 32, 68, 0.9),
-      rgba(39, 32, 68, 0.9)
-    ),
-    url("../images/lisbon-footer.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/money-heist-footer.jpg");
 
   background-repeat: no-repeat;
   background-size: cover;
